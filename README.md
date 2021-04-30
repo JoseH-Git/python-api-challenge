@@ -1,4 +1,3 @@
-=======
 # python-api-challenge
 
 Python API Homework - What's the Weather Like?
@@ -11,7 +10,7 @@ But, if pressed, how would you prove it?
 
 ![image](https://user-images.githubusercontent.com/80076539/116638694-7a461300-a92c-11eb-9989-d987cb40f731.png)
 
-Part I - WeatherPy
+#Part I - WeatherPy
 
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
 The first requirement is to create a series of scatter plots to showcase the following relationships:
@@ -34,6 +33,7 @@ Northern Hemisphere - Wind Speed (mph) vs. Latitude
 Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
 After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
+
 Your final notebook must:
 
 Randomly select at least 500 unique (non-repeat) cities based on latitude and longitude.
@@ -42,7 +42,7 @@ Include a print log of each city as it's being processed with the city number an
 Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 
-Part II - VacationPy
+#Part II - VacationPy
 
 Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
 
@@ -84,9 +84,7 @@ Hints and Considerations
 
 The city data you generate is based on random coordinates as well as different query times. As such, your outputs will not be an exact match to the provided starter notebook.
 
-
 If you'd like a refresher on the geographic coordinate system, this site has great information.
-
 
 Next, spend the requisite time necessary to study the OpenWeatherMap API. Based on your initial study, you should be able to answer basic questions about the API: Where do you request the API key? Which Weather API in particular will you need? What URL endpoints does it expect? What JSON structure does it respond with? Before you write a line of code, you should be aiming to have a crystal clear understanding of your intended outcome.
 
@@ -104,9 +102,3 @@ Once you have computed the linear regression for one chart, the process will be 
 
 
 Remember that each coordinate will trigger a separate call to the Google API. If you're creating your own criteria to plan your vacation, try to reduce the results in your DataFrame to 10 or fewer cities.
-
-
-Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file.
-
-Lastly, remember -- this is a challenging activity. Push yourself! If you complete this task, then you can safely say that you've gained a strong mastery of the core foundations of data analytics and it will only go better from here. Good luck!
-
