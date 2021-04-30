@@ -8,8 +8,9 @@ Now, we know what you may be thinking: "Duh. It gets hotter..."
 But, if pressed, how would you prove it?
 
 
-Before You Begin
+![image](https://user-images.githubusercontent.com/80076539/116638694-7a461300-a92c-11eb-9989-d987cb40f731.png)
 
+Before You Begin
 
 Create a new repository for this project called python-api-challenge. Do not add this homework to an existing repository.
 
